@@ -508,7 +508,7 @@ body {
       countvisits();
 
       function countvisits() {
-        fetch('https://api.countapi.xyz/update/gietnotes/notes/?amount=1')
+        fetch('https://api.countapi.xyz/update/gietnotes1/notes1/?amount=1')
           .then((res) => res.json())
           .then((res) => {
             countEl.innerHTML = res.value;
